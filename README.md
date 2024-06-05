@@ -13,15 +13,14 @@ The following algorithms have been implmeneted:
 - Highest Response Ratio Next (HRRN)
 - Feedback-Multiqueue (FB1)
 - Feedback with varying time quantum (FB2)
-- Aging(AGING)
+- Aging (AGING)
 
-## Installatoin
-
----
+## Installation
 
 1 - Clone this repository
 
 2 - Install g++ compiler and make
+
 For Linux:
 
 ```bash
@@ -39,8 +38,6 @@ brew install g++ make
 4 - Run the executable file `my_program`
 
 ## Input format
-
----
 
 - Line 1 : `trace` or `stats`
   trace produces a Gantt Chart of the scheduling process
@@ -67,9 +64,7 @@ brew install g++ make
 
 - Processes are assumed to be sorted based on the arrival time. If two processes have the same arrival time, then the one with the lower priority is assumed to arrive first.
 
-### Example
-
----
+## Example
 
 - Input 1:
 
