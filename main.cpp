@@ -403,7 +403,7 @@ void aging(int originalQuantum) {
 
 void printAlgorithm(int algorithmIndex) {
     string algorithmId = algorithms[algorithmIndex].first;
-    if (algorithmId.compare("RR") || algorithmId.compare("AGING")) {
+    if (algorithmId.compare("RR") != 0 || algorithmId.compare("AGING") != 0) {
         cout << algorithmId
              << ", Time Quantum : " << algorithms[algorithmIndex].second
              << endl;
